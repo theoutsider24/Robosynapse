@@ -1,0 +1,123 @@
+{
+	"guns":
+	[
+		{
+			"name": "cannon",
+			"noise": 1000,
+			"range": 1000
+		},
+		{
+			"name": "machinegun",
+			"noise": 15,
+			"range": 23
+		}
+	],
+	"ammo":
+	[
+		{
+			"name": "RubberBand",
+			"weight": 1,
+			"heat": 0,
+			"health": 0,
+			"capacity": 1000
+		},
+		{
+			"name": "Rocket",
+			"weight": 100,
+			"heat": 10,
+			"health": 0,
+			"capacity": 10
+		},
+		{
+			"name": "Bullet",
+			"weight": 10,
+			"heat": 5,
+			"health": 0,
+			"capacity": 100
+		}
+	],
+	"cooling":
+	[
+		{
+			"name": "Hand-Held Fan",			
+			"weight": 1,
+			"heat": -5,
+			"health": 0
+		},
+		{
+			"name": "Liquid Nitrogen",			
+			"weight": 100,
+			"heat": -100,
+			"health": 0
+		},
+		{
+			"name": "ElectricFan",			
+			"weight": 10,
+			"heat": -50,
+			"health": 0
+		}
+	],
+	"armour":
+	[
+		{
+			"name": "Paper",			
+			"weight": 1,
+			"heat": 1,
+			"health": 10
+		},
+		{
+			"name": "Kevlar",			
+			"weight": 5,
+			"heat": 5,
+			"health": 50
+		},
+		{
+			"name": "Composite",			
+			"weight": 50,
+			"heat": 10,
+			"health": 100
+		}
+	],
+	"wheels":
+	[
+		{
+			"name": "Trolley Wheel",
+			"weight": 4,
+			"heat": 1,
+			"health": 4
+		},
+		{
+			"name": "Honda Civic Wheels",
+			"weight": 10,
+			"heat": 20,
+			"health": 20
+		},
+		{
+			"name": "Caterpillar Tracks",
+			"weight": 50,
+			"heat": 10,
+			"health": 100
+		}
+	],
+	"bots":
+	[
+		{
+			"name":"default bot"
+		},
+		{
+			"name":"security bot"
+		},
+		{
+			"name":"weak bot",
+			"gun":"cannon",
+			"ammo":"RubberBand",
+			"wheels":"Trolley Wheel"
+		},
+		{
+			"name":"bot1",
+			"gun":"cannon",
+			"ammo":"Rocket",
+			"wheels":"Caterpillar Tracks"
+		}
+	]
+}

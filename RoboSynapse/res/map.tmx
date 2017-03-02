@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="22" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="road" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="/road.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" type="bool" value="false"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2" name="wall" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="/wall.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="3" name="water" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="/water.png" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="4" name="spawn" tilewidth="32" tileheight="32" tilecount="4" columns="2">
+  <image source="/spawn.png" width="64" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="Spawnable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Spawnable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Spawnable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Spawnable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="8" name="walls" tilewidth="32" tileheight="32" tilecount="15" columns="15">
+  <image source="walls_x.png" width="480" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="40" height="22">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA81X7QrDIAzsYFu7fqxb3/9h14JCOJJc0jnYj4OKGq+XM+rWdd3DwFxgtRmy4xHvHcOO646LgmXHVL5v0I4gOx4xFETjn+V3P8GtL9wWkYe5aBrlt8H4DWKNBbMDb/5U1nwKvMT4FdqM7wqxEJWvt57sm0h+f5XvVv77N34RP2X96PkZ46MfkV/ETxk/avE0v0lfyn7GL5IvuT+Zvtm8t+Jn/X80Huoq+cn6h/8f8dOozLP0ZfUPfcnqX7TeMX5eTdR0W0TMFueb1MnbrwxVN5mTlvzY+RP1s3V+ROrdNzrJ+FqdxfVw/2K9w/GW36I6eTprfszerw5E7oHauaDpw8D4Wbowft6+zfiRnb9sfzEfWfdyaz1sS359QhcJbf9E8+jVh3p/PnJY3yM1B9Z7xaqxVj97/1jza/vwwgdsSQIpwA0AAA==
+  </data>
+ </layer>
+</map>
